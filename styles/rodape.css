@@ -9,17 +9,17 @@
     display: flex;
     justify-content: center;
     gap: 3.5rem;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
-.rodape__nav--lista--whatsapp::before{
-    content: url("/assets/Whatsapp.svg");
+.rodape .rodape__nav--lista .rodape__nav--lista--whatsapp::before {
+    content: url("/assets/Whatsapp.svg")
 }
 
-.rodape__nav--lista--instagram::before{
+.rodape .rodape__nav--lista .rodape__nav--lista--instagram::before {
     content: url("/assets/Instragam.svg");
 }
 
-.rodape__nav--lista--tiktok::before {
+.rodape .rodape__nav--lista .rodape__nav--lista--tiktok::before {
     content: url("/assets/Tiktok.svg");
 }
